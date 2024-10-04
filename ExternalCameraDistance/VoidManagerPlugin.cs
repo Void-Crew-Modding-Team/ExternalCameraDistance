@@ -6,8 +6,10 @@ namespace ExternalCameraDistance
     {
         public override MultiplayerType MPType => MultiplayerType.Client;
 
-        public override string Author => "18107";
+        public override string Author => MyPluginInfo.PLUGIN_AUTHORS;
 
-        public override string Description => "Allows the player to change the external camera distance by scrolling";
+        public override string Description => MyPluginInfo.PLUGIN_DESCRIPTION;
+
+        public override string ThunderstoreID => MyPluginInfo.PLUGIN_THUNDERSTORE_ID;
     }
 }
